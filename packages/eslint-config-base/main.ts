@@ -298,6 +298,7 @@ export function generateBaseConfigs({
       },
     },
 
+    // eslint-disable-next-line import/no-named-as-default-member -- Keeping ESLint plugin imports consistent
     eslintPluginRegexp.configs.recommended,
 
     {
