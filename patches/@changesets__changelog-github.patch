@@ -1,34 +1,34 @@
 diff --git a/dist/changesets-changelog-github.cjs.js b/dist/changesets-changelog-github.cjs.js
-index f0ab3c46b9cd516ca5635e2e4dab079bac2908a6..fbd241494579c83e91b84b75800095db1c2e56f7 100644
+index 8f51059d6a1e7c200ea8559f2657c02bafd85285..be7accc3b94fa2383754c79a66eaf61c2903bc7a 100644
 --- a/dist/changesets-changelog-github.cjs.js
 +++ b/dist/changesets-changelog-github.cjs.js
 @@ -134,7 +134,7 @@ const changelogFunctions = {
        };
      })();
-     const users = usersFromSummary.length ? usersFromSummary.map(userFromSummary => `[@${userFromSummary}](https://github.com/${userFromSummary})`).join(", ") : links.user;
+     const users = usersFromSummary.length ? usersFromSummary.map(userFromSummary => `[@${userFromSummary}](${GITHUB_SERVER_URL}/${userFromSummary})`).join(", ") : links.user;
 -    const prefix = [links.pull === null ? "" : ` ${links.pull}`, links.commit === null ? "" : ` ${links.commit}`, users === null ? "" : ` Thanks ${users}!`].join("");
 +    const prefix = [links.pull === null ? "" : ` ${links.pull}`, links.commit === null ? "" : ` ${links.commit}` /* https://github.com/changesets/changesets/pull/1255 */].join("");
      return `\n\n-${prefix ? `${prefix} -` : ""} ${firstLine}\n${futureLines.map(l => `  ${l}`).join("\n")}`;
    }
  };
 diff --git a/dist/changesets-changelog-github.esm.js b/dist/changesets-changelog-github.esm.js
-index cc3b130e10445e0ff561568c9ace6a1c94bdf960..243db8a989cc587a1818b3276c2a595bfe342dd8 100644
+index 4da1d0ba7e1dda7fbd7c34a42f64b3dab98ace0b..2fd4a0c446f30425cc5b2ebb5e73f3849452fda4 100644
 --- a/dist/changesets-changelog-github.esm.js
 +++ b/dist/changesets-changelog-github.esm.js
 @@ -130,7 +130,7 @@ const changelogFunctions = {
        };
      })();
-     const users = usersFromSummary.length ? usersFromSummary.map(userFromSummary => `[@${userFromSummary}](https://github.com/${userFromSummary})`).join(", ") : links.user;
+     const users = usersFromSummary.length ? usersFromSummary.map(userFromSummary => `[@${userFromSummary}](${GITHUB_SERVER_URL}/${userFromSummary})`).join(", ") : links.user;
 -    const prefix = [links.pull === null ? "" : ` ${links.pull}`, links.commit === null ? "" : ` ${links.commit}`, users === null ? "" : ` Thanks ${users}!`].join("");
 +    const prefix = [links.pull === null ? "" : ` ${links.pull}`, links.commit === null ? "" : ` ${links.commit}` /* https://github.com/changesets/changesets/pull/1255 */].join("");
      return `\n\n-${prefix ? `${prefix} -` : ""} ${firstLine}\n${futureLines.map(l => `  ${l}`).join("\n")}`;
    }
  };
 diff --git a/src/index.ts b/src/index.ts
-index 15618c47d104519811f8106d504becfdd1b2fb2e..7816b1542719fcb9cce51a392103f30fd64842c0 100644
+index 247bbb7d80a14c65c38395a0e0316c59dde636bf..4235dffd88096ef92c9d315cd89fb09d5cd9245e 100644
 --- a/src/index.ts
 +++ b/src/index.ts
-@@ -113,7 +113,7 @@ const changelogFunctions: ChangelogFunctions = {
+@@ -120,7 +120,7 @@ const changelogFunctions: ChangelogFunctions = {
      const prefix = [
        links.pull === null ? "" : ` ${links.pull}`,
        links.commit === null ? "" : ` ${links.commit}`,
