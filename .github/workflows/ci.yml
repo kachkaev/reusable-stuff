@@ -34,7 +34,7 @@ jobs:
 
       - name: Load Prettier cache
         if: ${{ success() || failure() }}
-        uses: actions/cache@0057852bfaa89a56745cba8c7296529d2fc39830 # v4.3.0
+        uses: actions/cache@8b402f58fbc84540c8b491a91e594a4576fec3d7 # v5.0.2
         with:
           key: prettier-${{ github.run_id }}
           path: node_modules/.cache/prettier
