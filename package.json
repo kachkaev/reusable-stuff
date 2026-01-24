@@ -8,7 +8,7 @@
   },
   "type": "module",
   "scripts": {
-    "build": "pnpm --no-bail --recursive build",
+    "build": "pnpm --if-present --no-bail --recursive build",
     "changesets:publish": "pnpm build && changeset publish",
     "changesets:version": "pnpm changeset version && pnpm install --lockfile-only --no-frozen-lockfile",
     "fix": "npm-run-all --continue-on-error \"fix:*\"",
