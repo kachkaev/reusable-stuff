@@ -298,7 +298,7 @@ export function generateBaseConfigs({
       },
     },
 
-    eslintPluginRegexp.configs["flat/recommended"],
+    eslintPluginRegexp.configs.recommended,
 
     {
       plugins: {
@@ -354,6 +354,7 @@ export function generateBaseConfigs({
             peerDependencies: false,
           },
         ],
+        "import/no-named-as-default-member": "off",
       },
     },
 
