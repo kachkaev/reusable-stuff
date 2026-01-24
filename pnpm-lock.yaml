@@ -102,8 +102,8 @@ importers:
         specifier: 1.0.1
         version: link:../eslint-config-base
       '@next/eslint-plugin-next':
-        specifier: ^16.0.10
-        version: 16.0.10
+        specifier: ^16.1.4
+        version: 16.1.4
       eslint-plugin-better-tailwindcss:
         specifier: ^4.0.1
         version: 4.0.1(eslint@9.39.2(jiti@2.6.1))(tailwindcss@4.1.18)(typescript@5.9.3)
@@ -460,8 +460,8 @@ packages:
   '@napi-rs/wasm-runtime@1.1.0':
     resolution: {integrity: sha512-Fq6DJW+Bb5jaWE69/qOE0D1TUN9+6uWhCeZpdnSBk14pjLcCWR7Q8n49PTSPHazM37JqrsdpEthXy2xn6jWWiA==}
 
-  '@next/eslint-plugin-next@16.0.10':
-    resolution: {integrity: sha512-b2NlWN70bbPLmfyoLvvidPKWENBYYIe017ZGUpElvQjDytCWgxPJx7L9juxHt0xHvNVA08ZHJdOyhGzon/KJuw==}
+  '@next/eslint-plugin-next@16.1.4':
+    resolution: {integrity: sha512-38WMjGP8y+1MN4bcZFs+GTcBe0iem5GGTzFE5GWW/dWdRKde7LOXH3lQT2QuoquVWyfl2S0fQRchGmeacGZ4Wg==}
 
   '@nodelib/fs.scandir@2.1.5':
     resolution: {integrity: sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g==}
@@ -3073,7 +3073,7 @@ snapshots:
       '@tybys/wasm-util': 0.10.1
     optional: true
 
-  '@next/eslint-plugin-next@16.0.10':
+  '@next/eslint-plugin-next@16.1.4':
     dependencies:
       fast-glob: 3.3.1
 
