@@ -1,5 +1,13 @@
 # @kachkaev/prettier-config
 
+## 2.2.0
+
+### Minor Changes
+
+- [`6938a67`](https://github.com/kachkaev/routine-npm-packages/commit/6938a67501b5b78b00d44ec96698da80409895db) - Update dependencies
+  - #130
+  - #145
+
 ## 2.1.4
 
 ### Patch Changes
