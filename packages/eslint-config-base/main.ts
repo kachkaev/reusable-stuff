@@ -1,5 +1,4 @@
 import eslintJs from "@eslint/js";
-// @ts-expect-error -- Pending https://github.com/eslint-community/eslint-plugin-eslint-comments/pull/246
 import eslintPluginEslintCommentsConfigs from "@eslint-community/eslint-plugin-eslint-comments/configs";
 import stylisticEslintPlugin from "@stylistic/eslint-plugin";
 import type { Linter } from "eslint";
@@ -184,10 +183,7 @@ export function generateBaseConfigs({
       },
     },
 
-    replaceErrorWithWarn(
-      // eslint-disable-next-line @typescript-eslint/consistent-type-assertions, @typescript-eslint/no-unsafe-member-access -- Pending https://github.com/eslint-community/eslint-plugin-eslint-comments/pull/246
-      eslintPluginEslintCommentsConfigs.recommended as Linter.Config,
-    ),
+    replaceErrorWithWarn(eslintPluginEslintCommentsConfigs.recommended),
     {
       rules: {
         "@eslint-community/eslint-comments/no-unused-disable": "warn",
