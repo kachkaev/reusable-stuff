@@ -294,7 +294,7 @@ export function generateBaseConfigs({
             peerDependencies: false,
           },
         ],
-        "import/no-useless-path-segments": ["warn", { noUselessIndex: true }],
+        "import/no-useless-path-segments": ["warn"],
       },
     },
 
