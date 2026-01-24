@@ -1,5 +1,18 @@
 # @kachkaev/eslint-config-next
 
+## 1.1.0
+
+### Minor Changes
+
+- [`6938a67`](https://github.com/kachkaev/routine-npm-packages/commit/6938a67501b5b78b00d44ec96698da80409895db) - Update dependencies
+  - #125
+  - #137
+
+### Patch Changes
+
+- Updated dependencies [[`6938a67`](https://github.com/kachkaev/routine-npm-packages/commit/6938a67501b5b78b00d44ec96698da80409895db), [`3159082`](https://github.com/kachkaev/routine-npm-packages/commit/3159082f02d8ed80ca5b2daf1daf566a1e3321b7)]:
+  - @kachkaev/eslint-config-base@1.1.0
+
 ## 1.0.1
 
 ### Patch Changes
