@@ -4,5 +4,4 @@
 
 Update dependencies
 
-pr: #125
-pr: #137
+pr: #125, #137
