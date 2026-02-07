@@ -78,8 +78,8 @@ importers:
         version: 8.53.1(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3)
     devDependencies:
       '@tsconfig/node-ts':
-        specifier: 23.6.2
-        version: 23.6.2
+        specifier: 23.6.3
+        version: 23.6.3
       '@tsconfig/strictest':
         specifier: 2.0.8
         version: 2.0.8
@@ -115,8 +115,8 @@ importers:
         version: 7.0.1(eslint@9.39.2(jiti@2.6.1))
     devDependencies:
       '@tsconfig/node-ts':
-        specifier: 23.6.2
-        version: 23.6.2
+        specifier: 23.6.3
+        version: 23.6.3
       '@tsconfig/strictest':
         specifier: 2.0.8
         version: 2.0.8
@@ -612,8 +612,8 @@ packages:
     peerDependencies:
       eslint: '>=9.0.0'
 
-  '@tsconfig/node-ts@23.6.2':
-    resolution: {integrity: sha512-WcU3KR3tHB8XMotRBpUEGfPLT3W0gAhrHcTxU7mNQ4N1+fwF3LbjpWP07TuhZtN5ehK3bcK/R4Zzqp7Pqd7Nqg==}
+  '@tsconfig/node-ts@23.6.3':
+    resolution: {integrity: sha512-ZnYCOAKQwB90EFAbg8+i7J6UTw3QHuqUO5kYQeiYTs2ALUDL/ujJjR+Jk2FPwpQjKCzWkt+iIisd6+8pndBnzQ==}
 
   '@tsconfig/strictest@2.0.8':
     resolution: {integrity: sha512-XnQ7vNz5HRN0r88GYf1J9JJjqtZPiHt2woGJOo2dYqyHGGcd6OLGqSlBB6p1j9mpzja6Oe5BoPqWmeDx6X9rLw==}
@@ -3191,7 +3191,7 @@ snapshots:
       estraverse: 5.3.0
       picomatch: 4.0.3
 
-  '@tsconfig/node-ts@23.6.2': {}
+  '@tsconfig/node-ts@23.6.3': {}
 
   '@tsconfig/strictest@2.0.8': {}
 
