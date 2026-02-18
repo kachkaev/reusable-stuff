@@ -111,8 +111,8 @@ src/shared/
 |  ├── a.ts
 |  └── b.ts
 ├── @bar/
-|  ├── n.ts
-|  └── m.ts
+|  ├── m.ts
+|  └── n.ts
 ├── x.ts
 └── y.ts
 ```
