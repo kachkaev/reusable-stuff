@@ -1,5 +1,11 @@
 # @kachkaev/prettier-config
 
+## 2.2.1
+
+### Patch Changes
+
+- [`f3570fd`](https://github.com/kachkaev/reusable-stuff/commit/f3570fd00eb7d0fafdc1ae985d159a15f51a4d1a) - Rename GitHub repository from routine-npm-packages to reusable-stuff
+
 ## 2.2.0
 
 ### Minor Changes

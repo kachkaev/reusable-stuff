@@ -1,5 +1,11 @@
 # @kachkaev/markdownlint-config
 
+## 1.0.1
+
+### Patch Changes
+
+- [`f3570fd`](https://github.com/kachkaev/reusable-stuff/commit/f3570fd00eb7d0fafdc1ae985d159a15f51a4d1a) - Rename GitHub repository from routine-npm-packages to reusable-stuff
+
 ## 1.0.0
 
 ### Major Changes
