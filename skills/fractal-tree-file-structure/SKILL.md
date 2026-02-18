@@ -1,6 +1,6 @@
 ---
 name: fractal-tree-file-structure
-description: Guides file and folder organization using fractal tree structure: self-similar directories, encapsulation, shared/ folders, mini-library pattern, and kebab-case naming. Use when creating, moving, or renaming files, extracting modules into subdirectories, deciding where shared code belongs, or checking import boundaries.
+description: "Guides file and folder organization using fractal tree structure: self-similar directories, encapsulation, shared/ folders, mini-library pattern, and kebab-case naming. Use when creating, moving, or renaming files, extracting modules into subdirectories, deciding where shared code belongs, or checking import boundaries."
 license: MIT
 metadata:
   author: kachkaev
