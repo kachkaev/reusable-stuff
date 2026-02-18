@@ -3,7 +3,7 @@
   "version": "1.1.0",
   "repository": {
     "type": "git",
-    "url": "git@github.com:kachkaev/routine-npm-packages.git",
+    "url": "https://github.com/kachkaev/reusable-stuff.git",
     "directory": "packages/eslint-config-next"
   },
   "license": "MIT",

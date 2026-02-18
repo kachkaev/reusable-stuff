@@ -12,7 +12,7 @@ permissions:
 jobs:
   release:
     environment: release
-    if: github.repository == 'kachkaev/routine-npm-packages'
+    if: github.repository == 'kachkaev/reusable-stuff'
     name: Release
     permissions:
       contents: write

@@ -1,3 +1,5 @@
-# Routine npm packages
+# Reusable stuff
 
-See `packages/*/README.md`.
+Routine npm packages: `packages/*/README.md`.
+
+Agent skills: `skills/*/SKILL.md`.
