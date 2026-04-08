@@ -263,6 +263,7 @@ export function generateBaseConfigs({
 
         // Not included in typescript-eslint; enabled in this config
         "@typescript-eslint/consistent-type-imports": "warn",
+        "@typescript-eslint/no-import-type-side-effects": "warn",
         "@typescript-eslint/consistent-type-assertions": [
           "warn",
           { assertionStyle: "never" },
