@@ -262,13 +262,14 @@ export function generateBaseConfigs({
         "@typescript-eslint/restrict-template-expressions": ["error", {}], // Use default options instead of strict ones
 
         // Not included in typescript-eslint; enabled in this config
-        "@typescript-eslint/consistent-type-imports": "warn",
         "@typescript-eslint/consistent-type-assertions": [
           "warn",
           { assertionStyle: "never" },
         ],
+        "@typescript-eslint/consistent-type-imports": "warn",
         "@typescript-eslint/explicit-module-boundary-types": "warn",
         "@typescript-eslint/naming-convention": ruleArgsForNamingConvention,
+        "@typescript-eslint/no-import-type-side-effects": "warn",
         "@typescript-eslint/no-shadow": "error",
         "@typescript-eslint/no-unused-expressions": "warn",
         "@typescript-eslint/no-use-before-define": "warn",
