@@ -33,7 +33,7 @@
     "@tsconfig/strictest": "2.0.8",
     "@types/node": "24.10.11",
     "eslint": "9.39.4",
-    "react": "19.2.4",
+    "react": "19.2.5",
     "tailwindcss": "4.2.2",
     "typescript": "6.0.2"
   },
