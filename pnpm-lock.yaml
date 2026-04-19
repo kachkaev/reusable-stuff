@@ -99,7 +99,7 @@ importers:
         specifier: ^2.7.2
         version: 2.7.2(eslint@9.39.4(jiti@2.6.1))(typescript@6.0.3)
       '@kachkaev/eslint-config-base':
-        specifier: 1.1.1
+        specifier: 1.2.0
         version: link:../eslint-config-base
       '@next/eslint-plugin-next':
         specifier: ^16.1.6
