@@ -1,5 +1,11 @@
 # @kachkaev/eslint-config-base
 
+## 1.2.0
+
+### Minor Changes
+
+- [#193](https://github.com/kachkaev/reusable-stuff/pull/193) [`e885ad0`](https://github.com/kachkaev/reusable-stuff/commit/e885ad0147ba5c04f6045ecceea909bdb5662d68) - Add `@typescript-eslint/no-import-type-side-effects` rule
+
 ## 1.1.1
 
 ### Patch Changes
