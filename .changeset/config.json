@@ -4,7 +4,7 @@
   "baseBranch": "main",
   "changelog": [
     "@changesets/changelog-github",
-    { "repo": "kachkaev/reusable-stuff" }
+    { "repo": "kachkaev/reusable-stuff", "disableThanks": true }
   ],
   "commit": false,
   "fixed": [["@kachkaev/eslint-config-*"]],
