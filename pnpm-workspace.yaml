@@ -10,8 +10,5 @@ nodeLinker: isolated
 packages:
   - packages/*
 
-patchedDependencies:
-  "@changesets/changelog-github": patches/@changesets__changelog-github.patch
-
 ## Disable "Update available" banner (updates are handled by Renovate)
 updateNotifier: false
