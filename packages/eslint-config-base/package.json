@@ -29,7 +29,7 @@
     "eslint-plugin-regexp": "^3.1.0",
     "eslint-plugin-simple-import-sort": "^13.0.0",
     "eslint-plugin-unicorn": "^62.0.0",
-    "typescript-eslint": "^8.53.1"
+    "typescript-eslint": "^8.60.1"
   },
   "devDependencies": {
     "@tsconfig/node-ts": "23.6.4",
