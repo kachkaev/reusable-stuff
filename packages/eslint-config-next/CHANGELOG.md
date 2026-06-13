@@ -1,5 +1,12 @@
 # @kachkaev/eslint-config-next
 
+## 1.2.0
+
+### Patch Changes
+
+- Updated dependencies [[`e885ad0`](https://github.com/kachkaev/reusable-stuff/commit/e885ad0147ba5c04f6045ecceea909bdb5662d68)]:
+  - @kachkaev/eslint-config-base@1.2.0
+
 ## 1.1.1
 
 ### Patch Changes
