@@ -20,7 +20,7 @@
     "prettier-plugin-sh": "^0.18.1"
   },
   "devDependencies": {
-    "prettier": "3.8.3"
+    "prettier": "3.8.4"
   },
   "peerDependencies": {
     "prettier": "^3.0.0"
