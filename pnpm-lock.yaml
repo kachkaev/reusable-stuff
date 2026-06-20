@@ -101,7 +101,7 @@ importers:
         version: 16.2.9
       eslint-plugin-better-tailwindcss:
         specifier: ^4.5.0
-        version: 4.5.0(eslint@9.39.4(jiti@2.7.0))(tailwindcss@4.3.0)(typescript@6.0.3)
+        version: 4.5.0(eslint@9.39.4(jiti@2.7.0))(tailwindcss@4.3.1)(typescript@6.0.3)
       eslint-plugin-react:
         specifier: ^7.37.5
         version: 7.37.5(eslint@9.39.4(jiti@2.7.0))
@@ -125,8 +125,8 @@ importers:
         specifier: 19.2.7
         version: 19.2.7
       tailwindcss:
-        specifier: 4.3.0
-        version: 4.3.0
+        specifier: 4.3.1
+        version: 4.3.1
       typescript:
         specifier: 6.0.3
         version: 6.0.3
@@ -2523,8 +2523,8 @@ packages:
       '@eslint/css':
         optional: true
 
-  tailwindcss@4.3.0:
-    resolution: {integrity: sha512-y6nxMGB1nMW9R6k96e5gdIFzcfL/gTJRNaqGes1YvkLnPVXzWgbqFF2yLC0T8G774n24cx3Pe8XrKoniCOAH+Q==}
+  tailwindcss@4.3.1:
+    resolution: {integrity: sha512-hk+TB1m+K8CYNrP6rjQaq/Y+4Zylwpa87mLYBKCunwnnQ9p+fHb7kmSfGqyEJoxF/O6CDyABWVFEafNSYKll+Q==}
 
   tapable@2.3.3:
     resolution: {integrity: sha512-uxc/zpqFg6x7C8vOE7lh6Lbda8eEL9zmVm/PLeTPBRhh1xCgdWaQ+J1CUieGpIfm2HdtsUpRv+HshiasBMcc6A==}
@@ -3964,7 +3964,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  eslint-plugin-better-tailwindcss@4.5.0(eslint@9.39.4(jiti@2.7.0))(tailwindcss@4.3.0)(typescript@6.0.3):
+  eslint-plugin-better-tailwindcss@4.5.0(eslint@9.39.4(jiti@2.7.0))(tailwindcss@4.3.1)(typescript@6.0.3):
     dependencies:
       '@eslint/css-tree': 4.0.4
       '@valibot/to-json-schema': 1.7.0(valibot@1.4.1(typescript@6.0.3))
@@ -3972,7 +3972,7 @@ snapshots:
       jiti: 2.7.0
       synckit: 0.11.12
       tailwind-csstree: 0.3.2
-      tailwindcss: 4.3.0
+      tailwindcss: 4.3.1
       tsconfig-paths-webpack-plugin: 4.2.0
       valibot: 1.4.1(typescript@6.0.3)
     optionalDependencies:
@@ -5596,7 +5596,7 @@ snapshots:
 
   tailwind-csstree@0.3.2: {}
 
-  tailwindcss@4.3.0: {}
+  tailwindcss@4.3.1: {}
 
   tapable@2.3.3: {}
 
