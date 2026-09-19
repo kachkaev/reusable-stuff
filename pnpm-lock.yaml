@@ -243,8 +243,8 @@ importers:
         specifier: 2.0.8
         version: 2.0.8
       '@types/node':
-        specifier: 24.13.4
-        version: 24.13.4
+        specifier: 24.13.6
+        version: 24.13.6
       '@typescript/native':
         specifier: npm:typescript@7.0.2
         version: typescript@7.0.2
@@ -289,8 +289,8 @@ importers:
         specifier: 2.0.8
         version: 2.0.8
       '@types/node':
-        specifier: 24.13.4
-        version: 24.13.4
+        specifier: 24.13.6
+        version: 24.13.6
       '@typescript/native':
         specifier: npm:typescript@7.0.2
         version: typescript@7.0.2
@@ -1220,8 +1220,8 @@ packages:
   '@types/ms@2.1.0':
     resolution: {integrity: sha512-GsCCIZDE/p3i96vtEqx+7dBUGXrc7zeSK3wwPHIaRThS+9OhWIXRqzs4d6k1SVU8g91DrNRWxWUGhp5KXQb2VA==}
 
-  '@types/node@24.13.4':
-    resolution: {integrity: sha512-YJ7EqCstVTzIr0fMr7qul/977en+pQHrfmuKIo6Zr9i75Be21dr3MovcfvGtyvi2HAUrRerWps5sMO9I7WaxDw==}
+  '@types/node@24.13.6':
+    resolution: {integrity: sha512-SGrw/h3KPFshy3OE6ZL53LMBG5vGQQ8/gIpiqz/kRZhPJ7HgwCEs8LBuNtWLa8dvGZVpSF7+Bf+c11HUrCb/yg==}
 
   '@types/node@26.4.1':
     resolution: {integrity: sha512-k97ENvZWtvA6yqz5/FS6a7duDgOPEeOQOc2iKS/nY6mX6qJUKtLnWzQS+Xj6tXweyj6ZcTAK2Qecetnvi9nCLA==}
@@ -4268,7 +4268,7 @@ snapshots:
 
   '@types/ms@2.1.0': {}
 
-  '@types/node@24.13.4':
+  '@types/node@24.13.6':
     dependencies:
       undici-types: 7.18.2
 
