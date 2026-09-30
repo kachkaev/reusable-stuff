@@ -84,6 +84,15 @@
       "schedule": ["every weekend"]
     },
     {
+      "description": "`@types/node` is the Node.js API that `tsc` checks code against, so its major belongs with the oldest Node.js the code runs on: the `engines` floor, or the `devEngines` runtime where there is no `engines`. Both of those wait for dashboard approval before their major changes, but `@types/node` would otherwise automerge with the other devDependencies as soon as `workarounds:typesNodeVersioning` lets Renovate offer the next line, which happens when that line reaches LTS. Code could then call an API that the runtime it supports lacks, and `tsc` would not notice. `@types/node` majors wait for dashboard approval too, to be raised together with the runtime.",
+      "autoApprove": false,
+      "automerge": false,
+      "dependencyDashboardApproval": true,
+      "matchManagers": ["npm"],
+      "matchPackageNames": ["@types/node"],
+      "matchUpdateTypes": ["major"]
+    },
+    {
       "description": "`engines` declares which runtimes a package supports, so any change there is a compatibility decision and a breaking one when the floor rises. Every such update waits for dashboard approval and never automerges, whatever the update type. This overrides the patch rule above.",
       "autoApprove": false,
       "automerge": false,
