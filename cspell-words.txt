@@ -6,7 +6,6 @@ cjs
 csstree
 dedupe
 env
-jsonata
 kachkaev
 knip
 manypkg
