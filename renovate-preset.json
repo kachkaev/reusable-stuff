@@ -111,7 +111,6 @@
       "matchUpdateTypes": ["major"]
     }
   ],
-  "postUpdateOptions": ["pnpmDedupe"],
   "prConcurrentLimit": 5,
   "prHourlyLimit": 1,
   "rangeStrategy": "pin",
