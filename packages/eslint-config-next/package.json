@@ -28,7 +28,7 @@
     "eslint-plugin-better-tailwindcss": "^4.7.0",
     "eslint-plugin-react": "github:kachkaev/eslint-plugin-react#a797c3ddbfe00a05be3640bf7f8cdabf4104208c",
     "eslint-plugin-react-hooks": "^7.1.1",
-    "tailwind-csstree": "^0.4.0"
+    "tailwind-csstree": "^0.4.1"
   },
   "devDependencies": {
     "@tsconfig/node-ts": "23.6.4",

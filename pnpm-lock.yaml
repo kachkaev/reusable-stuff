@@ -279,8 +279,8 @@ importers:
         specifier: ^7.1.1
         version: 7.1.1(eslint@10.11.0(jiti@2.7.0)(supports-color@7.2.0))(supports-color@7.2.0)
       tailwind-csstree:
-        specifier: ^0.4.0
-        version: 0.4.0(@eslint/css@2.0.0)
+        specifier: ^0.4.1
+        version: 0.4.1(@eslint/css@2.0.0)
     devDependencies:
       '@tsconfig/node-ts':
         specifier: 23.6.4
@@ -3158,8 +3158,8 @@ packages:
       '@eslint/css':
         optional: true
 
-  tailwind-csstree@0.4.0:
-    resolution: {integrity: sha512-EBQfcsJBrRhGLsV/dBc7qIeLzCkOtSb31wNlU6//DUlHO74dcbvyl5sugoI/FeuxtENH5exS+6F5nffe1deDog==}
+  tailwind-csstree@0.4.1:
+    resolution: {integrity: sha512-GOgf0lQhk13norDMdHbW6aK7wd5gFPrArzTkDgJH88w9AVtQQrROUqLVu3sgXqzPBUXIhd+tLASpKqba7+I68g==}
     engines: {node: '>=18.18'}
     peerDependencies:
       '@eslint/css': '>=1.0.0'
@@ -6478,7 +6478,7 @@ snapshots:
     optionalDependencies:
       '@eslint/css': 2.0.0
 
-  tailwind-csstree@0.4.0(@eslint/css@2.0.0):
+  tailwind-csstree@0.4.1(@eslint/css@2.0.0):
     optionalDependencies:
       '@eslint/css': 2.0.0
 
