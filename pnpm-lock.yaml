@@ -233,7 +233,7 @@ importers:
         specifier: ^74.0.0
         version: 74.0.0(eslint@10.12.0(jiti@2.7.0)(supports-color@7.2.0))
       typescript-eslint:
-        specifier: ^8.69.0
+        specifier: ^8.71.1
         version: 8.71.1(@typescript/typescript6@6.0.2)(eslint@10.12.0(jiti@2.7.0)(supports-color@7.2.0))(supports-color@7.2.0)
     devDependencies:
       '@tsconfig/node-ts':
