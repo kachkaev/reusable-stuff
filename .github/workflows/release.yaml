@@ -33,10 +33,28 @@ jobs:
         with:
           cache: true
 
+      # npm scans a new version for malware for a few minutes before listing
+      # it, so a run right after the one that published sees the version as
+      # unpublished and fails with 409 Conflict on publishing it again. The
+      # versions' tags, which changesets pushes after publishing, do not lag.
+      # Drop this check once changesets handles the scan window:
+      # https://github.com/changesets/changesets/issues/2195
+      - name: Check if all package versions are already tagged
+        id: version-tags
+        run: |
+          tags=$(pnpm ls --recursive --depth -1 --json | jq --raw-output '.[] | select(.private | not) | "\(.name)@\(.version)"')
+          for tag in $tags; do
+            git rev-parse --quiet --verify "refs/tags/$tag" > /dev/null || exit 0
+          done
+          if [ -n "$tags" ]; then
+            echo "all-exist=true" >> "$GITHUB_OUTPUT"
+          fi
+
       - name: Create release pull request or publish to npm
         id: changesets
         uses: changesets/action@ae32849d5ba541f9ae29e40e22a623bc13562f51 # v2.1.2
         with:
           pr-title: Version packages
           version-script: pnpm changesets:version
-          publish-script: pnpm changesets:publish
+          # An empty script makes the action skip publishing
+          publish-script: ${{ steps.version-tags.outputs.all-exist != 'true' && 'pnpm changesets:publish' || '' }}
