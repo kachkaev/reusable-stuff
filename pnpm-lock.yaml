@@ -261,8 +261,8 @@ importers:
         specifier: ^5.24.10
         version: 5.26.0(@typescript/typescript6@6.0.2)(eslint@10.12.0(jiti@2.7.0)(supports-color@7.2.0))(supports-color@7.2.0)
       '@eslint/css':
-        specifier: ^2.0.0
-        version: 2.0.0
+        specifier: ^2.0.1
+        version: 2.0.1
       '@kachkaev/eslint-config-base':
         specifier: 2.0.0
         version: link:../eslint-config-base
@@ -271,7 +271,7 @@ importers:
         version: 16.4.0(eslint@10.12.0(jiti@2.7.0)(supports-color@7.2.0))
       eslint-plugin-better-tailwindcss:
         specifier: ^4.9.0
-        version: 4.9.0(@eslint/css@2.0.0)(@typescript/typescript6@6.0.2)(eslint@10.12.0(jiti@2.7.0)(supports-color@7.2.0))(tailwindcss@4.3.3)
+        version: 4.9.0(@eslint/css@2.0.1)(@typescript/typescript6@6.0.2)(eslint@10.12.0(jiti@2.7.0)(supports-color@7.2.0))(tailwindcss@4.3.3)
       eslint-plugin-react:
         specifier: github:kachkaev/eslint-plugin-react#a797c3ddbfe00a05be3640bf7f8cdabf4104208c
         version: https://codeload.github.com/kachkaev/eslint-plugin-react/tar.gz/a797c3ddbfe00a05be3640bf7f8cdabf4104208c(eslint@10.12.0(jiti@2.7.0)(supports-color@7.2.0))
@@ -280,7 +280,7 @@ importers:
         version: 7.1.1(eslint@10.12.0(jiti@2.7.0)(supports-color@7.2.0))(supports-color@7.2.0)
       tailwind-csstree:
         specifier: ^0.4.1
-        version: 0.4.1(@eslint/css@2.0.0)
+        version: 0.4.1(@eslint/css@2.0.1)
     devDependencies:
       '@tsconfig/node-ts':
         specifier: 23.6.4
@@ -829,8 +829,8 @@ packages:
     resolution: {integrity: sha512-A+s89eP+yDAPkKjnIOfjlkGifg5J7GPn01nWx14UjBVWktfkxOU4975F9ZZ13xNxkGiblNcBaAqgKhnQrW6SWA==}
     engines: {node: ^20.19.0 || ^22.13.0 || >=24}
 
-  '@eslint/css@2.0.0':
-    resolution: {integrity: sha512-lODVRbtxOXgcSOWNvv3gE4A8oRTSUHefA0tX9zrWUD57F+5RTLGDX9I8bnHQROO8nWb0hrmke0uO23pTlNfZ0A==}
+  '@eslint/css@2.0.1':
+    resolution: {integrity: sha512-1qIQFzuFeTaHF3ewzsj/HUDC9RTDwfBHGWdFvpmOG0R/Tb3Mt+17yltbE10/LK+oglS1fP9+tiG5UzMvWgQY9g==}
     engines: {node: ^20.19.0 || ^22.13.0 || >=24}
 
   '@eslint/js@10.0.1':
@@ -4016,7 +4016,7 @@ snapshots:
       mdn-data: 2.35.0
       source-map-js: 1.2.2
 
-  '@eslint/css@2.0.0':
+  '@eslint/css@2.0.1':
     dependencies:
       '@eslint/core': 1.2.1
       '@eslint/css-tree': 4.1.1
@@ -5020,14 +5020,14 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  eslint-plugin-better-tailwindcss@4.9.0(@eslint/css@2.0.0)(@typescript/typescript6@6.0.2)(eslint@10.12.0(jiti@2.7.0)(supports-color@7.2.0))(tailwindcss@4.3.3):
+  eslint-plugin-better-tailwindcss@4.9.0(@eslint/css@2.0.1)(@typescript/typescript6@6.0.2)(eslint@10.12.0(jiti@2.7.0)(supports-color@7.2.0))(tailwindcss@4.3.3):
     dependencies:
       '@eslint/css-tree': 4.1.1
       '@valibot/to-json-schema': 1.8.0(valibot@1.5.0(@typescript/typescript6@6.0.2))
       enhanced-resolve: 5.26.0
       jiti: 2.7.0
       synckit: 0.11.13
-      tailwind-csstree: 0.3.3(@eslint/css@2.0.0)
+      tailwind-csstree: 0.3.3(@eslint/css@2.0.1)
       tailwindcss: 4.3.3
       tsconfig-paths-webpack-plugin: 4.2.0
       valibot: 1.5.0(@typescript/typescript6@6.0.2)
@@ -6547,13 +6547,13 @@ snapshots:
     dependencies:
       '@pkgr/core': 0.3.6
 
-  tailwind-csstree@0.3.3(@eslint/css@2.0.0):
+  tailwind-csstree@0.3.3(@eslint/css@2.0.1):
     optionalDependencies:
-      '@eslint/css': 2.0.0
+      '@eslint/css': 2.0.1
 
-  tailwind-csstree@0.4.1(@eslint/css@2.0.0):
+  tailwind-csstree@0.4.1(@eslint/css@2.0.1):
     optionalDependencies:
-      '@eslint/css': 2.0.0
+      '@eslint/css': 2.0.1
 
   tailwindcss@4.3.3: {}
 
