@@ -49,7 +49,7 @@
     "npm-run-all2": "9.0.4",
     "prettier": "3.9.10"
   },
-  "packageManager": "pnpm@12.14.0",
+  "packageManager": "pnpm@12.15.0",
   "devEngines": {
     "runtime": {
       "name": "node",
