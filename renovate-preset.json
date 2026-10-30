@@ -25,6 +25,11 @@
       "rangeStrategy": "auto"
     },
     {
+      "description": "A pin update (`^4.0.0` → `4.0.0`) carries no `releaseTimestamp`: Renovate builds it from the version already in the lock file instead of looking up a release, so there is nothing whose age it could measure. Under the default `timestamp-required`, the top-level `minimumReleaseAge` therefore makes `renovate/stability-days` pending forever on every “Pin dependencies” PR. `timestamp-optional` lets a pin count as stable; it installs nothing new, as the version it pins to is the one already locked, so no release skips the 8 hour floor.",
+      "matchUpdateTypes": ["pin"],
+      "minimumReleaseAgeBehaviour": "timestamp-optional"
+    },
+    {
       "autoApprove": true,
       "automerge": true,
       "dependencyDashboardApproval": false,
