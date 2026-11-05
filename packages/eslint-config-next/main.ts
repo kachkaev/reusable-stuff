@@ -77,10 +77,10 @@ export function generateNextConfigs({
   return [
     ...generateBaseConfigs({ tsconfigRootDir }),
 
-    // `extends` scopes every block below to TS and TSX files (see @kachkaev/eslint-config-base)
+    // `extends` scopes every block below to TypeScript files (see @kachkaev/eslint-config-base)
     ...defineConfig({
       name: "@kachkaev/eslint-config-next",
-      files: ["**/*.{ts,tsx}"],
+      files: ["**/*.{mts,ts,tsx}"],
       extends: [
         {
           name: "@kachkaev/eslint-config-next -> ignores",

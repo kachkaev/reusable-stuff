@@ -152,12 +152,12 @@ export function generateBaseConfigs({
 }: {
   tsconfigRootDir?: string | undefined;
 } = {}): Linter.Config[] {
-  // `extends` scopes every block below to TS and TSX files, so that configs for other languages
+  // `extends` scopes every block below to TypeScript files, so that configs for other languages
   // (e.g. CSS) can be added alongside without JS rules crashing on them. Blocks that only contain
   // `ignores` are left global by ESLint.
   return defineConfig({
     name: "@kachkaev/eslint-config-base",
-    files: ["**/*.{ts,tsx}"],
+    files: ["**/*.{mts,ts,tsx}"],
     extends: [
       {
         ignores: ["dist/", "node_modules/"],
@@ -347,8 +347,8 @@ export function generateBaseConfigs({
 
       {
         files: [
-          "**/*.config.ts",
-          "**/*.test.{ts,tsx}",
+          "**/*.config.{mts,ts}",
+          "**/*.test.{mts,ts,tsx}",
           "scripts/**",
           "test/**",
           "tests/**",
@@ -368,8 +368,8 @@ export function generateBaseConfigs({
 
       {
         files: [
-          "*.config.ts",
-          "**/*.d.ts",
+          "*.config.{mts,ts}",
+          "**/*.d.{mts,ts}",
           "**/plugin.ts", // Custom ESLint plugin (following community pattern)
           "**/rules/*.ts", // Custom ESLint rules (following community pattern)
         ],
@@ -379,7 +379,7 @@ export function generateBaseConfigs({
       },
 
       {
-        files: ["**/*.d.ts"],
+        files: ["**/*.d.{mts,ts}"],
         rules: {
           "@typescript-eslint/consistent-type-definitions": "off", // Useful to extend third-party interfaces
           "@typescript-eslint/consistent-indexed-object-style": "off", // Useful to extend third-party interfaces
