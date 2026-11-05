@@ -9,6 +9,7 @@ env
 kachkaev
 knip
 manypkg
+mts
 njt
 opengraph
 renovatebot
