@@ -41,7 +41,7 @@
     "@changesets/config": "4.0.1",
     "@kachkaev/prettier-config": "workspace:*",
     "@manypkg/cli": "0.25.1",
-    "cspell": "10.4.0",
+    "cspell": "10.4.1",
     "husky": "9.1.7",
     "knip": "6.44.1",
     "lint-staged": "17.6.0",
