@@ -316,7 +316,7 @@ importers:
   packages/prettier-config:
     dependencies:
       prettier-plugin-packagejson:
-        specifier: ^3.0.3
+        specifier: ^3.1.0
         version: 3.1.0(prettier@3.9.10)
       prettier-plugin-sh:
         specifier: ^0.19.0
