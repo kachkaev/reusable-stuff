@@ -43,7 +43,7 @@
     "@manypkg/cli": "0.25.1",
     "cspell": "10.4.1",
     "husky": "9.1.7",
-    "knip": "6.44.1",
+    "knip": "6.44.2",
     "lint-staged": "17.6.0",
     "markdownlint-cli": "0.50.0",
     "npm-run-all2": "9.0.4",
