@@ -237,8 +237,8 @@ importers:
         version: 8.72.1(@typescript/typescript6@6.0.2)(eslint@10.14.0(jiti@2.7.0)(supports-color@7.2.0))(supports-color@7.2.0)
     devDependencies:
       '@tsconfig/node-ts':
-        specifier: 23.6.4
-        version: 23.6.4
+        specifier: 23.6.5
+        version: 23.6.5
       '@tsconfig/strictest':
         specifier: 2.0.8
         version: 2.0.8
@@ -283,8 +283,8 @@ importers:
         version: 0.4.2(@eslint/css@2.0.1)
     devDependencies:
       '@tsconfig/node-ts':
-        specifier: 23.6.4
-        version: 23.6.4
+        specifier: 23.6.5
+        version: 23.6.5
       '@tsconfig/strictest':
         specifier: 2.0.8
         version: 2.0.8
@@ -1223,8 +1223,8 @@ packages:
     peerDependencies:
       eslint: ^9.0.0 || ^10.0.0
 
-  '@tsconfig/node-ts@23.6.4':
-    resolution: {integrity: sha512-37BMJvNQZ+vTgd1xG2TGBkJ6ENeT4eO4Wh2CHrnn0IwH7ybLFCzh4Uc//kc7UIvqiRac4uGdIc1meKOjMSlKzw==}
+  '@tsconfig/node-ts@23.6.5':
+    resolution: {integrity: sha512-Wi2qMgKqBddhC/rN1CfYAB+Ayk5KxR8i8bVOQGPI26+2URbY435D9f28pRKmplWOIR0Ii/MmyWPDH12P38pRXw==}
 
   '@tsconfig/strictest@2.0.8':
     resolution: {integrity: sha512-XnQ7vNz5HRN0r88GYf1J9JJjqtZPiHt2woGJOo2dYqyHGGcd6OLGqSlBB6p1j9mpzja6Oe5BoPqWmeDx6X9rLw==}
@@ -4307,7 +4307,7 @@ snapshots:
       estraverse: 5.3.0
       picomatch: 4.0.7
 
-  '@tsconfig/node-ts@23.6.4': {}
+  '@tsconfig/node-ts@23.6.5': {}
 
   '@tsconfig/strictest@2.0.8': {}
 
