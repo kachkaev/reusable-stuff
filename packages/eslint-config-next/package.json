@@ -1,6 +1,6 @@
 {
   "name": "@kachkaev/eslint-config-next",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/kachkaev/reusable-stuff.git",
@@ -23,7 +23,7 @@
   "dependencies": {
     "@eslint-react/eslint-plugin": "^5.28.8",
     "@eslint/css": "^2.0.1",
-    "@kachkaev/eslint-config-base": "2.0.0",
+    "@kachkaev/eslint-config-base": "2.1.0",
     "@next/eslint-plugin-next": "^16.4.6",
     "eslint-plugin-better-tailwindcss": "^4.10.0",
     "eslint-plugin-react": "github:kachkaev/eslint-plugin-react#a797c3ddbfe00a05be3640bf7f8cdabf4104208c",
