@@ -1,5 +1,16 @@
 # @kachkaev/eslint-config-next
 
+## 2.1.0
+
+### Minor Changes
+
+- [#437](https://github.com/kachkaev/reusable-stuff/pull/437) [`16bf77d`](https://github.com/kachkaev/reusable-stuff/commit/16bf77ddcb3ebbda642c130ef459a7abc7e77374) - Lint `.mts` files. The generated config blocks were scoped to `.ts` and `.tsx`, so `.mts` files were silently skipped, or failed to parse when another config block matched them.
+
+### Patch Changes
+
+- Updated dependencies [[`16bf77d`](https://github.com/kachkaev/reusable-stuff/commit/16bf77ddcb3ebbda642c130ef459a7abc7e77374)]:
+  - @kachkaev/eslint-config-base@2.1.0
+
 ## 2.0.0
 
 ### Major Changes
